@@ -1,4 +1,4 @@
-# ezinstall
+# ezinstall [Not Finished]
 A script to quickly set up the latest Ubuntu with the tools I use.
 
 - https://github.com/nahamsec/bbht
