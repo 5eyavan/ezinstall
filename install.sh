@@ -2,9 +2,9 @@
 sudo apt update
 sudo apt full-upgrade -y
 sudo apt install libz-dev libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext cmake gcc -y
-sudo apt install git
-sudo apt install python3
-sudo apt install python3-pip
+sudo apt install git -y
+sudo apt install python3 -y
+sudo apt install python3-pip -y
 cd ~
 curl -OL https://go.dev/dl/go1.23.6.linux-amd64.tar.gz
 sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
