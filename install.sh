@@ -7,7 +7,7 @@ sudo apt install python3 -y
 sudo apt install python3-pip -y
 cd ~
 curl -OL https://go.dev/dl/go1.23.6.linux-amd64.tar.gz
-sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
+sudo tar -C /usr/local -xvf go1.23.6.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.profile
 source ~/.profile
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
