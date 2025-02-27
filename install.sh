@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt update
+sudo apt full-upgrade -y
 sudo apt install libz-dev libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext cmake gcc
 sudo apt install git
 sudo apt install python3
