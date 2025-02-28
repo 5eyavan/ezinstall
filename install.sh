@@ -23,3 +23,6 @@ go install github.com/tomnomnom/qsreplace@latest
 go install github.com/tomnomnom/assetfinder@latest
 go install github.com/tomnomnom/httprobe@latest
 go install github.com/tomnomnom/gf@latest
+pip install uro --break-system-packages
+echo 'export PATH=$PATH:/home/{username}/.local/bin' >> ~/.profile
+source ~/.profile
