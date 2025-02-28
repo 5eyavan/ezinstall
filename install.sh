@@ -10,6 +10,7 @@ curl -OL https://go.dev/dl/go1.23.6.linux-amd64.tar.gz
 sudo tar -C /usr/local -xvf go1.23.6.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.profile
 echo 'export PATH=$PATH:/home/{username}/go/bin' >> ~/.profile
+echo 'export PATH=$PATH:/home/{username}/.local/bin' >> ~/.profile
 source ~/.profile
 rm -r go1.23.6.linux-amd64.tar.gz
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
@@ -24,5 +25,3 @@ go install github.com/tomnomnom/assetfinder@latest
 go install github.com/tomnomnom/httprobe@latest
 go install github.com/tomnomnom/gf@latest
 pip install uro --break-system-packages
-echo 'export PATH=$PATH:/home/{username}/.local/bin' >> ~/.profile
-source ~/.profile
